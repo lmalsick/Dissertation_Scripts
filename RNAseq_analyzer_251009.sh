@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 ################################################
+# PLEASE READ
 # PROGRAM:
 # RNAseq_analyzer_251009.sh
 #
@@ -9,7 +10,6 @@
 # This is a simple wrapper that performs quality control, genome alignment, basic format
 # conversions, and htseq-count tabulation for paired-end RNA-seq samples using a specified
 # genome. 
-#
 #
 # AUTHOR:
 # Lauren Malsick adapted from Erin Nishimura's script from DSCI512
@@ -27,6 +27,8 @@
 #		deep-tools
 #
 # 	Requires access to the Nishimura Lab installed software sources on ALPINE or can load modules.
+#            I use: source /curc/sw/anaconda3/latest
+#                   conda activate 2022dsci512
 #
 # REQUIRES:
 #    INPUT: .fastq files.    For each sample, paired forward and reverse sequencing files
@@ -38,7 +40,6 @@
 #								of each sample. Later columns can be included with other
 #								metadata information. Metadata file should be placed
 #								within the inputdir directory. (I have it in a folder annotated as /01_input)
-#
 #
 #    HISAT2 INDEXES: .ht2 files for the genome. These are produced using hisat2-build. 
 #
@@ -59,7 +60,8 @@
 # ENTV UG125 strain, and mock -- have a seperate metadata file for IFN alpha treated samples -- all harvested 12, 24, 48, and 72hpi)
 # 
 # KNOWN BUGS: Can't use the WHU genome for alignment have to use the CHSL version! Also line 211 -t exon may need to change
-#
+#             There is an issue with the CHSL genome in comparison to the old Augustus GTF, the GTF has to be modified, please see README in 02/scripts for more info
+#             If you do not modify GTF IT WILL FAIL
 # THINGS TO IMPROVE: There is a cleanup script, seems to crash with my samples? 
 #
 ################################################
