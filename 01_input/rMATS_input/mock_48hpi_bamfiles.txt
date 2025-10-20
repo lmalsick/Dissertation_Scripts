@@ -1,0 +1,1 @@
+/scratch/alpine/lmalsick@colostate.edu/Genewiz_sequencing/03_output/2025-05-25_output/04_samtools/AJ43_sort.bam,/scratch/alpine/lmalsick@colostate.edu/Genewiz_sequencing/03_output/2025-05-25_output/04_samtools/AJ44_sort.bam,/scratch/alpine/lmalsick@colostate.edu/Genewiz_sequencing/03_output/2025-05-25_output/04_samtools/AJ45_sort.bam

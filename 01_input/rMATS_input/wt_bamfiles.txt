@@ -1,0 +1,2 @@
+#path to wt samples (744) at 12hpi
+/scratch/alpine/lmalsick@colostate.edu/Genewiz_sequencing/03_output/2025-05-25_output/04_samtools/AJ01_sort.bam,/scratch/alpine/lmalsick@colostate.edu/Genewiz_sequencing/03_output/2025-05-25_output/04_samtools/AJ02_sort.bam,/scratch/alpine/lmalsick@colostate.edu/Genewiz_sequencing/03_output/2025-05-25_output/04_samtools/AJ03_sort.bam
