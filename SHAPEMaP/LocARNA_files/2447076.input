@@ -1,0 +1,25 @@
+#CallingServerVersion;5.0.12
+#CallingToolVersion;1.9.1 linking Vienna RNA package 2.3.2
+sequences;input.fa
+alignType;Global
+probabilistic;true
+structWeight;200
+indelOpening;-800
+indel;-50
+ribosumFile;true
+matchScore;50
+mismatchScore;0
+plfold-span;150
+temperature;37
+energyParameterSet;/data/birna01/Software/locarna/aux/1.9.1/rna_turner2004.par
+dotPlot;
+minPairProb;0.0005
+minProbGuideTree;0.005
+maxDiffArcs;30
+maxDiffAlign;60
+ignoreConstraints;true
+dissPairs;true
+alifoldConsensusDP;false
+consistencyTransform;true
+keepInputOrder;false
+stockholmOutput;true
